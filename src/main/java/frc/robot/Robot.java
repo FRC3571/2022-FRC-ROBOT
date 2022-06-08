@@ -38,7 +38,7 @@ public class Robot extends TimedRobot {
       new DifferentialDrive(new TitanQuad(42,0), new TitanQuad(42,2));
   private final Joystick m_stick = new Joystick(GamepadConstants.DRIVE_USB_PORT);
 
-  private Servo m_servo = new Servo(Constants.SERVO_C);
+  private Servo m_servo = new Servo(1);
   
   
   /**
